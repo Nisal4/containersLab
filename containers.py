@@ -90,5 +90,11 @@ for student in awesome_students:
 
 
 # Exercise 8
+# Use a for loop to iterate over a list comprehension that filters the foods tuple to only include food strings that contains the letter a.
+# Within the for loop, print each food string.
 
 # your solution here
+
+for food in foods:
+    if ('a' or 'A') in food:
+        print(food)
