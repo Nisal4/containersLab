@@ -37,17 +37,23 @@ for food in foods[-2:]:
 # your solution here
 
 home_town = {
-    "city": "New York", 
-    "state": "NY", 
+    "city": "New York City", 
+    "state": "New York", 
     "population": 7888121
 }
 
-print(f'I was born in {home_town["city"]}, {home_town["state"]} - population of {home_town["population"]}')
+print(f'I live in {home_town["city"]}, {home_town["state"]} - population of {home_town["population"]}')
 
 # Exercise 5
+# Iterate over the key: value pairs in home_town and print a string for each item, for example:
+# "city = Arcadia"
+# "state = California"
+# "population = 58000"
 
 # your solution here
 
+for key, value in home_town.items():
+    print(f'{key} = {value}')
 
 # Exercise 6
 
