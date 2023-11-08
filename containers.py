@@ -56,8 +56,24 @@ for key, value in home_town.items():
     print(f'{key} = {value}')
 
 # Exercise 6
+# Create an empty list named cohort.
+# Using a for loop to iterate over the students list.
+# Hint: Use the enumerate function to provide both the index & student
+# Within the for loop, add a dictionary to the cohort list that combines the student's name and the food in the foods list at the same index. 
+# Iterate over the cohort list, printing out each item (it's not necessary to format the dictionaries).
 
 # your solution here
+
+cohort = []
+
+for index, student in enumerate(students):
+    cohort.append({
+        "student": student,
+        "fav_food": foods[index]
+    })
+
+for item in cohort:
+    print(item)
 
 
 # Exercise 7
