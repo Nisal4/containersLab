@@ -77,8 +77,16 @@ for item in cohort:
 
 
 # Exercise 7
+# Using the list of students and a list comprehension, assign to a variable named awesome_students a new list containing strings similar to this:
+# ["Tina is awesome!", "Fred is awesome!", "Wilma is awesome!"]
+# Iterate over the awesome_students list, printing out each string.
 
 # your solution here
+
+awesome_students = [f'{student} is awesome!' for student in students]
+
+for student in awesome_students:
+    print(student)
 
 
 # Exercise 8
